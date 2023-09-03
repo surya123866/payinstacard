@@ -1,9 +1,15 @@
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
+.footer-container-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.footer-container-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
 }
 .footer-header-container {
   display: flex;

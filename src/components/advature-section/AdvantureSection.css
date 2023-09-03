@@ -1,5 +1,15 @@
-.advanture-container {
+.advanture-container-row {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1512px;
+  height: auto;
+  gap: 100px;
+  padding: 20px;
+}
+.advanture-container-column {
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   width: 1512px;

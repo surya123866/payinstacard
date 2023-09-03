@@ -17,7 +17,11 @@ function FooterSection() {
     };
   }, []);
   return (
-    <div className="footer-container">
+    <div  className={`${
+      isLargeScreen
+        ? "footer-container-row"
+        : "footer-container-column"
+    }`}>
       <div className="footer-header-container">
         <h1 className="footer-header">
           Student Special: Discounted rates on tropical getaways!

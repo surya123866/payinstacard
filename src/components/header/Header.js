@@ -1,12 +1,11 @@
-import React,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 
 import "./Header.css";
 
 function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const [isMenuOpen , setIsMenuOpen] = useState(false);
-
-    const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 768);
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 768);
 
   useEffect(() => {
     const handleResize = () => {
@@ -20,25 +19,23 @@ function Header() {
     };
   }, []);
 
-
-
   const LargeScreenHeader = () => (
     <nav className="header-container">
       <ul className="header-menu-container">
         <li className="header-option">
-          <a>Home</a>
+          <a href="#">Home</a>
         </li>
         <li className="header-option">
-          <a>About</a>
+          <a href="#">About</a>
         </li>
         <li className="header-option">
-          <a>Shedules</a>
+          <a href="#">Shedules</a>
         </li>
         <li className="header-option">
-          <a>Membership</a>
+          <a href="#">Membership</a>
         </li>
         <li className="header-option">
-          <a>Services</a>
+          <a href="#">Services</a>
         </li>
       </ul>
       <div className="button-container">
@@ -81,11 +78,9 @@ function Header() {
     </div>
   );
 
-  
-
   return (
     <div className="header-container">
-       {isLargeScreen ? <LargeScreenHeader /> : <SmallScreenHeader />}
+      {isLargeScreen ? <LargeScreenHeader /> : <SmallScreenHeader />}
     </div>
   );
 }

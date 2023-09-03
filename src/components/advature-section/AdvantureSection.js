@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import "./AdvantureSection.css";
 
 import Avatar1 from "../../assets/Avatar1.png";
@@ -20,7 +20,13 @@ function AdvantureSection() {
     };
   }, []);
   return (
-    <div className="advanture-container">
+    <div
+      className={`${
+        isLargeScreen
+          ? "advanture-container-row"
+          : "advanture-container-column"
+      }`}
+    >
       <div className="advanture-cards-container">
         <div className="advanture-card">
           <img src={`${Avatar1}`} alt="avatarPic" className="avatar" />
