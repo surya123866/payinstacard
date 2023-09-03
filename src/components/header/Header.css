@@ -23,6 +23,9 @@
   font-weight: 500;
   line-height: normal;
 }
+.anchor-tag{
+  text-decoration: none;
+}
 .button-container {
   display: flex;
   align-items: flex-end;

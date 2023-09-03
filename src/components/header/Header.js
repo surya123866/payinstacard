@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
-
 import "./Header.css";
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 768);
 
   useEffect(() => {
@@ -23,19 +21,19 @@ function Header() {
     <nav className="header-container">
       <ul className="header-menu-container">
         <li className="header-option">
-          <a href="#">Home</a>
+          <a className="anchor-tag"  href="/">Home</a> {/* Provide valid href */}
         </li>
         <li className="header-option">
-          <a href="#">About</a>
+          <a href="/about">About</a> {/* Provide valid href */}
         </li>
         <li className="header-option">
-          <a href="#">Shedules</a>
+          <a className="anchor-tag" href="/schedules">Schedules</a> {/* Provide valid href */}
         </li>
         <li className="header-option">
-          <a href="#">Membership</a>
+          <a className="anchor-tag" href="/membership">Membership</a> {/* Provide valid href */}
         </li>
         <li className="header-option">
-          <a href="#">Services</a>
+          <a className="anchor-tag" href="/services">Services</a> {/* Provide valid href */}
         </li>
       </ul>
       <div className="button-container">
@@ -62,16 +60,16 @@ function Header() {
         </button>
         <ul className={`menu ${isMenuOpen ? "active" : ""}`}>
           <li>
-            <a href="#">Home</a>
+            <a className="anchor-tag" href="/">Home</a> {/* Provide valid href */}
           </li>
           <li>
-            <a href="#">About</a>
+            <a className="anchor-tag" href="/about">About</a> {/* Provide valid href */}
           </li>
           <li>
-            <a href="#">Membership</a>
+            <a className="anchor-tag" href="/membership">Membership</a> {/* Provide valid href */}
           </li>
           <li>
-            <a href="#">Services</a>
+            <a className="anchor-tag" href="/services">Services</a> {/* Provide valid href */}
           </li>
         </ul>
       </nav>
