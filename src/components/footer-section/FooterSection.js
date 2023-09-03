@@ -19,8 +19,8 @@ function FooterSection() {
   return (
     <div  className={`${
       isLargeScreen
-        ? "footer-container-row"
-        : "footer-container-column"
+        ? "footer-container-column"
+        : "footer-container-row"
     }`}>
       <div className="footer-header-container">
         <h1 className="footer-header">

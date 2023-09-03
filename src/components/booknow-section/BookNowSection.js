@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./BookNowSection.css";
-import image41 from "../../assets/image41.png"
+import image41 from "../../assets/Group 167.png"
 
 function BookNowSection() {
   return (

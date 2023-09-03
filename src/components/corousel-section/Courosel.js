@@ -3,10 +3,10 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 
 import "./Corousel.css";
 
-import image1 from "../../assets/card-image1.png";
-import image2 from "../../assets/card-image2.png";
-import image3 from "../../assets/card-image3.png";
-import image4 from "../../assets/card-image4.png";
+import image1 from "../../assets/card-image-1.png";
+import image2 from "../../assets/card-image-2.png";
+import image3 from "../../assets/card-image-3.png";
+import image4 from "../../assets/card-image-4.png";
 
 function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0);

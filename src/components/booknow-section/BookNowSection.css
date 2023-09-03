@@ -7,22 +7,11 @@
   gap: 50px;
 }
 .booknow-left-container {
-  position: relative;
-  border-radius: 50%; 
-  background-color: rgba(80, 92, 89, 1); 
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 50%, 0% 100%); 
-  transform: rotate(235deg); 
-  background-color: rgba(80, 92, 89, 1); 
+  
 }
 
 .image41 {
-  position: relative;
-  width: 658px;
-  height: 590px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 100%;
-  transform: rotate(125deg); 
+  width: 450px;
 }
 .image-container {
   position: relative;

@@ -62,12 +62,7 @@
   text-align: left;
 }
 
-.discount-right-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: -350px;
-}
+
 .image40{
-    border-radius: 10;
+  width: 300px;
 }

@@ -2,7 +2,7 @@ import React,{useState,useEffect} from "react";
 
 import "./DiscountSection.css";
 
-import image40 from "../../assets/image40.png";
+import image40 from "../../assets/Mask group.png";
 
 function DiscountSection() {
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 768);
@@ -72,7 +72,7 @@ function DiscountSection() {
         </div>
       </div>
       {isLargeScreen?(<div className="discount-right-container">
-        <img src={`${image40}`} alt="image40" />
+        <img src={`${image40}`} className="image40" alt="image40" />
       </div>):("")}
     </div>
   );
