@@ -1,0 +1,12 @@
+.home-page-container {
+  width: 1512px;
+  height: 5546px;
+  background: #fff;
+}
+.mobile-home-page-container {
+  max-width: 768px;
+  height: 5546px;
+  background: #fff;
+}
+
+

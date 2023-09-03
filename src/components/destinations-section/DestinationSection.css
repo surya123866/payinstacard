@@ -1,0 +1,31 @@
+.destination-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 50px;
+}
+
+.destination-heading {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.destination-cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: c;
+  width: 1200px;
+}
+
+.destination-card-container {
+  display: flex;
+  padding: 38px 26px;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: 1 0 0;
+  align-self: stretch;
+}

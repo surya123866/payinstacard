@@ -1,0 +1,135 @@
+.header-container {
+  display: inline-flex;
+  padding: 0px 7.5px 2px 206px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 363.5px;
+}
+.SmallScreen-header-contaner {
+  display: flex;
+}
+.header-menu-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+}
+.header-option {
+  list-style: none;
+  color: var(--Black, #262626);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.button-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+.offer-text {
+  color: #7d7d7d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.header-button {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 30px;
+  background: #f27a44;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.small-devise-nav-conainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-toggle {
+  display: none; /* Hide by default on larger screens */
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  background-color: #000;
+  height: 3px;
+  width: 25px;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+/* Menu styles */
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu a {
+  color: #000;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 50%;
+    margin: 10px;
+  }
+
+  .menu.active {
+    display: flex;
+  }
+
+  #menu-toggle:checked + .menu-toggle .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  #menu-toggle:checked + .menu-toggle .bar:nth-child(2) {
+    opacity: 0;
+  }
+  #menu-toggle:checked + .menu-toggle .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}

@@ -1,0 +1,50 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.footer-header-container {
+  display: flex;
+  width: 688px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-header {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 688px;
+}
+.footer-sub-heading {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  width: 423px;
+}
+
+.legal-info-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 38px;
+}
+.leagal-info-text {
+  list-style: none;
+  color: #2d2e2e;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

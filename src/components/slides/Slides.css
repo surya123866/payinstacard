@@ -1,0 +1,99 @@
+.carousel-inner {
+  position: relative;
+}
+
+.carousel-item {
+  display: none;
+  text-align: center;
+}
+
+.carousel-item.active {
+  display: block;
+}
+/* Custom CSS for the Carousel Component */
+.container {
+  margin-top: 20px;
+}
+
+.carousel-inner {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent cards from wrapping to the next row */
+  justify-content: flex-start; /* Center the cards horizontally */
+  align-items: flex-start;
+  overflow-x: auto; /* Enable horizontal scrolling for card overflow */
+}
+
+.card {
+  flex: 0 0 auto; /* Prevent card from growing to fill space */
+  width: 375px; /* Set the width of each card as needed */
+  margin-right: 10px; /* Adjust the margin between cards */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.img {
+  display: flex;
+  padding: 38px 26px;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: 1 0 0;
+  background-size: cover;
+  height:400px;
+  border-radius: 20px;
+}
+.rating-container {
+  display: flex;
+  height: 37px;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 21px;
+  background: #fff;
+}
+
+.rating-number {
+  color: #000;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card-body{
+    padding: 10px;
+}
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-top: 8px;
+  color: #333;
+  text-align: left;
+}
+
+.custom-carousel-control {
+  width: auto;
+}
+
+.custom-carousel-control-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #000000;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 10px;
+}
+
+.custom-carousel-control-icon:hover,
+.custom-carousel-control-icon:active {
+  background-color: #b30003;
+  transition: background-color 0.2s ease-in-out;
+}

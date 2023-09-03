@@ -1,0 +1,218 @@
+.booknow-section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1512px;
+  height: 732.845px;
+  gap: 50px;
+}
+.booknow-left-container {
+  position: relative;
+  border-radius: 50%; 
+  background-color: rgba(80, 92, 89, 1); 
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 50%, 0% 100%); 
+  transform: rotate(235deg); 
+  background-color: rgba(80, 92, 89, 1); 
+}
+
+.image41 {
+  position: relative;
+  width: 658px;
+  height: 590px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  transform: rotate(125deg); 
+}
+.image-container {
+  position: relative;
+  width: 558px;
+  height: 590px;
+  background-image: url(../../assets/image41.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 0 100% 50%;
+}
+
+.booknow-right-container {
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 2px rgba(0.1, 0.1, 0.1, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 420px;
+  height: auto;
+}
+.book-now-form-header {
+  display: flex;
+  padding: 29.183px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11.673px;
+  align-self: stretch;
+}
+.book-now-text {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 32.685px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.form-decription-text {
+  color: #282828;
+  font-family: "Roboto";
+  font-size: 18.677px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.584px;
+  text-align: left;
+}
+.button-container {
+  display: flex;
+  padding: 29.183px;
+  align-items: center;
+  gap: 15.175px;
+  align-self: stretch;
+}
+.book-now-button {
+  display: flex;
+  padding: 14.008px 18.677px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4.669px;
+  background: #000;
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15.175px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.261px;
+  text-transform: uppercase;
+}
+.inputs-container {
+  display: flex;
+  padding: 29.183px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 17.51px;
+  align-self: stretch;
+}
+.city-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5.837px;
+  align-self: stretch;
+}
+.city-text {
+  color: #000;
+  font-family: Roboto;
+  font-size: 12.84px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.848px; /* 209.091% */
+  letter-spacing: 0.584px;
+  text-transform: uppercase;
+}
+.city-input-box {
+  display: flex;
+  width: 359.533px;
+  height: 52.529px;
+  padding-left: 15px;
+  align-items: center;
+  border-radius: 11.673px;
+  border: 0px solid;
+  background: #f3f3f3;
+  color: var(--muted-color, #78858f);
+  font-family: "Roboto";
+  font-size: 14.008px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.848px; /* 191.667% */
+  letter-spacing: 0.584px;
+  flex: 1 0 0;
+  text-align: left;
+  outline: none;
+}
+
+.arrival-departure-container,
+.star-room-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.arrival-container,
+.departure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5.837px;
+  flex: 1 0 0;
+}
+.arrival-text,
+.departure-text,
+.star-text,
+.room-text {
+  color: #000;
+  font-family: "Roboto";
+  font-size: 12.84px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.848px; /* 209.091% */
+  letter-spacing: 0.584px;
+  text-transform: uppercase;
+}
+.departure-input,
+.arrival-input {
+  border: none;
+  outline: none;
+  display: flex;
+  height: 52.529px;
+  padding-left: 0px;
+  align-items: center;
+  border-radius: 11.673px;
+  border: 0px solid #000;
+  background: #f3f3f3;
+  padding-left: 10px;
+}
+.star-button-input-container {
+  display: flex;
+  height: 52.529px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 11.673px;
+  border: 0px solid #000;
+  background: #f3f3f3;
+}
+.star-button,
+.room-button {
+  display: flex;
+  padding: 15.175px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 11px 11.673px 11.673px 11px;
+  background: #ebebeb;
+}
+.star-input,
+.room-input {
+  text-align: center;
+  color: var(--muted-color, #78858f);
+  font-family: "Roboto";
+  font-size: 14.008px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.848px; /* 191.667% */
+  letter-spacing: 0.584px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 30px;
+}
